@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/send_ll"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginBottom="3dp"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              android:layout_marginTop="3dp"
+              android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/et_send_msg"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_send_msg_bg"
+        android:hint="一起发送弹幕吧"
+        android:imeOptions="actionSend"
+        android:maxLength="50"
+        android:singleLine="true"/>
+    <Button
+        android:id="@+id/btn_send_msg"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:background="#FF6600"
+        android:text="发送"/>
+</LinearLayout>
